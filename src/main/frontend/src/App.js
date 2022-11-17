@@ -61,7 +61,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        {
+        { // map 사용시 key 설정 필수
           users.map(u => {
             return (
               <User
